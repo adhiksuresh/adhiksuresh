@@ -18,15 +18,18 @@ M.Tech in Energy Science and Technology, **IIT Hyderabad** (Smart Grid Lab, advi
 | Project | What it does | Tools |
 |---|---|---|
 | [EV charging station analytics](https://github.com/adhiksuresh/ev-charging-station-analytics) | 15-minute 5G smart-meter data from four campus EV chargers: load profiles, time-of-day tariff costs, charging sessions, forecasting baselines. Reproduces the published results. | Python, pandas, XGBoost |
-<!-- Add a row here as each repo goes public, for example:
-| [VAE for synthetic load profiles](https://github.com/adhiksuresh/vae-synthetic-load-profiles) | Variational autoencoder written from scratch to generate realistic daily load profiles from smart-meter data. | NumPy |
-| [Multi-energy system optimisation](https://github.com/adhiksuresh/multi-energy-system-optimisation) | 8,760-hour capacity-expansion MILP for a coupled electricity–hydrogen–heat system under net-zero scenarios. | Pyomo |
-| [GNN power-flow estimation](https://github.com/adhiksuresh/gnn-power-flow-estimation) | Graph convolutional network for power-flow estimation, benchmarked against topology-blind baselines. | PyTorch |
+<!-- Add a row here as each repo goes public:
+| [Multi-energy system optimisation](https://github.com/adhiksuresh/multi-energy-system-optimisation) | Hourly, full-year model of a coupled electricity–hydrogen–heat system: cost of moving from gas to net zero, with an original study and a corrected version. | PyPSA, HiGHS |
+| [VAE for synthetic load profiles](https://github.com/adhiksuresh/vae-synthetic-load-profiles) | Variational autoencoder written from scratch to generate realistic daily load profiles, benchmarked against a Gaussian baseline. | NumPy |
+| [GNN power-flow estimation](https://github.com/adhiksuresh/gnn-power-flow-estimation) | Graph convolutional network vs neural-network and DC power-flow baselines on the IEEE 30-bus system, including unseen line outages. | PyTorch, pandapower |
 -->
 
+### Courses
+- **AI for Good Specialization** (DeepLearning.AI, Coursera): guided labs including 24-hour wind power forecasting with neural networks on SCADA data from a real wind farm (SDWPF dataset)
+
 ### Tools
-- **Programming:** Python (NumPy, pandas, scikit-learn, PyTorch, Pyomo), MATLAB/Simulink, R, SQL, C
-- **Power and energy:** PSS/E, pandapower
+- **Programming:** Python (NumPy, pandas, scikit-learn, PyTorch, TensorFlow), MATLAB/Simulink, R, SQL, C
+- **Energy modelling:** PyPSA, Pyomo, pandapower, PSS/E, PVsyst, SAM
 
 ### Contact
 [Email](mailto:adhikkollad@gmail.com) · [LinkedIn](https://www.linkedin.com/in/adhiksuresh) · [ORCID](https://orcid.org/0009-0001-0517-6748)
