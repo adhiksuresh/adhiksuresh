@@ -2,7 +2,9 @@
 
 I work on **AI and data-driven methods for smart grids and energy systems**: how learning, optimisation and real measurement data can make energy decisions more efficient and more trustworthy.
 
-M.Tech in Energy Science and Technology, **IIT Hyderabad** (Smart Grid Lab, advisor: Dr. P. K. Yemula). Since then, systems engineering for an aerospace programme with Adani Defence and DRDO. Currently **applying for PhD positions (2027)**.
+- **Education:** M.Tech in Energy Science and Technology, **IIT Hyderabad** (Smart Grid Lab, advisor: Dr. P. K. Yemula), 2024 · B.Tech in Electrical and Electronics Engineering, APJ Abdul Kalam Technological University, 2022
+- **Experience:** **Deputy Manager – Systems Engineering**, Adani Enterprises (Defence business unit), deputed to DRDO Research Centre Imarat, Hyderabad (Jul 2024 – Feb 2026): systems integration, hardware-in-the-loop validation and qualification testing for a national aerospace programme
+- Currently **applying for PhD positions (2027)**
 
 ### Research interests
 - Machine learning for energy: load forecasting, generative models for synthetic energy data, learning-based control under uncertainty
