@@ -17,22 +17,22 @@ M.Tech in Energy Science and Technology, **IIT Hyderabad** (Smart Grid Lab, advi
 ### Projects
 | Project | What it does | Tools |
 |---|---|---|
-| [EV charging station analytics](https://github.com/adhiksuresh/ev-charging-station-analytics) | 15-minute 5G smart-meter data from four campus EV chargers: load profiles, time-of-day tariff costs, charging sessions, forecasting baselines. Reproduces the published results. | Python, pandas, XGBoost |
-<!-- Add a row here as each repo goes public, for example:
-| [VAE for synthetic load profiles](https://github.com/adhiksuresh/vae-synthetic-load-profiles) | Variational autoencoder written from scratch to generate realistic daily load profiles from smart-meter data. | NumPy |
-| [Multi-energy system optimisation](https://github.com/adhiksuresh/multi-energy-system-optimisation) | 8,760-hour capacity-expansion MILP for a coupled electricity–hydrogen–heat system under net-zero scenarios. | Pyomo |
-| [GNN power-flow estimation](https://github.com/adhiksuresh/gnn-power-flow-estimation) | Graph convolutional network for power-flow estimation, benchmarked against topology-blind baselines. | PyTorch |
--->
+| [EV charging station analytics](https://github.com/adhiksuresh/ev-charging-station-analytics) | M.Tech thesis code: 15-minute 5G smart-meter data from four campus EV chargers, load profiles and time-of-day tariff costs (reproduces the published results), plus a 2026 extension testing anomaly detectors against synthetic meter-data attacks. | Python, pandas, scikit-learn |
+| [Multi-energy system optimisation](https://github.com/adhiksuresh/multi-energy-system-optimisation) | Hourly, full-year model of a coupled electricity–hydrogen–heat system: what it costs to move from gas to net zero, with the original study and a corrected version. | PyPSA, HiGHS |
+| [VAE for synthetic load profiles](https://github.com/adhiksuresh/vae-synthetic-load-profiles) | Variational autoencoder written from scratch (hand-derived gradients) that generates realistic daily load profiles, benchmarked against a Gaussian baseline. | NumPy |
+| [GNN power-flow estimation](https://github.com/adhiksuresh/gnn-power-flow-estimation) | Graph convolutional network vs neural-network and DC power-flow baselines on the IEEE 30-bus system, including unseen line outages. An honest negative result. | PyTorch, pandapower |
+| [Safe learning-augmented control](https://github.com/adhiksuresh/safe-learning-inverter-control) | What a safety filter actually does when online learning is added to frequency and voltage control, for one controller and for two sharing a grid. | Python |
+
+**Earlier work**
+- [Dynamic voltage restorer](https://github.com/adhiksuresh/dynamic-voltage-restorer): B.Tech project (2022). MATLAB/Simulink simulation and a 12 V hardware prototype for voltage sag and swell mitigation.
+- [Arduino digital electronics labs](https://github.com/adhiksuresh/arduino-digital-electronics-labs): BCD counters and seven-segment display logic written as Boolean equations.
+
+### Courses
+- **AI for Good Specialization** (DeepLearning.AI, Coursera): guided labs including 24-hour wind power forecasting with neural networks on SCADA data from a real wind farm (SDWPF dataset)
 
 ### Tools
-- **Programming:** Python (NumPy, pandas, scikit-learn, PyTorch, Pyomo), MATLAB/Simulink, R, SQL, C
-- **Power and energy:** PSS/E, pandapower
-
-### Selected coursework (Coursera)
-- **Machine Learning with Scikit-learn, PyTorch & Hugging Face**, Professional Certificate (5 courses) · [Certificate](https://coursera.org/verify/professional-cert/X15BCKSLV3VN)
-- **Electric Vehicle Systems and Technologies**, Specialization (12 courses, incl. EV–grid integration & V2G, charging hubs, batteries) · [Certificate](https://coursera.org/verify/specialization/S22MER3A87JA)
-- **Introduction to Systems Engineering**, Specialization, University of Colorado Boulder · [Certificate](https://coursera.org/verify/specialization/H61RJNSH658P)
-- **Energy systems:** Electric Power Systems (University at Buffalo) · Modelling and Measuring the Energy Transition (Politecnico di Milano) · Electric Industry Operations and Markets (Duke) · Wind Energy (DTU) · Introduction to Battery-Management Systems (CU Boulder)
+- **Programming:** Python (NumPy, pandas, scikit-learn, PyTorch, TensorFlow), MATLAB/Simulink, R, SQL, C
+- **Energy modelling:** PyPSA, Pyomo, pandapower, PSS/E, PVsyst, SAM
 
 ### Contact
 [Email](mailto:adhikkollad@gmail.com) · [LinkedIn](https://www.linkedin.com/in/adhiksuresh) · [ORCID](https://orcid.org/0009-0001-0517-6748)
